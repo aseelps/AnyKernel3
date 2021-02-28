@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Aseel-ultra Kernel By Aseel_P_Sathar
+kernel.string=Action Kernel By Aseel_P_Sathar
 do.devicecheck=1
 do.modules=0
 do.cleanup=1

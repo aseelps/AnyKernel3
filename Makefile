@@ -1,13 +1,13 @@
-NAME ?= Aseel
+NAME ?= Action
 DATE := $(shell date "+%d%m%Y-%I%M")
-CODE := -ultra-Kernel
+CODE := -Kernel
 VERSION := 4.9-$(LINUX_VERSION)
 
 SZIP := $(NAME)-$(CODE)-$(VERSION)-STABLE-$(DATE).zip
 BZIP := $(NAME)-$(CODE)-$(VERSION)-BETA-$(DATE).zip
 
 
-EXCLUDE := Makefile *.git* *.jar* Aseel* *placeholder*
+EXCLUDE := Makefile *.git* *.jar* Action* *placeholder*
 
 stable: $(SZIP)
 beta: $(BZIP)
